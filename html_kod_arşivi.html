@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <p style="color: yellowgreen">
+      Paragraf yazmak için kullanılır.Başta etikette p den sonra kapama kısmına
+      kadar style etiketi ile özellik ekleyebilirsin.
+    </p>
+
+    <b>Kalın yazmak için</b>
+
+    <!--Yorum Satırı Yazmak İçin Kullanılır.Kısayol için önce yorum satırı kısmı yazılıp "CTRL+K+C"yapılabilir.-->
+
+    <!--Word Wrap:Yazılan kodların mevcut pencere boyutuna göre ayarlanması,sığdırılması için kullanılır. -->
+
+    <strong>
+      Yine kalın yazar ama mantıksal olarak ekstra önem katmak için kullanılır.
+    </strong>
+
+    <i>İtalik yazmak için</i>
+
+    <em
+      >İtalik yine yazar ama ekran okuyucular tarafından ekstra bir vurgu ile
+      okunur.</em
+    >
+
+    <h1>En büyük başlık</h1>
+    <small
+      >Başlığın yanında önemi biraz daha az olan ifade için kullanılır</small
+    >
+
+    <mark>Kelime işaretleme için kullanılır</mark>
+
+    <del>Silinecek Kısım için kullanılır./Üstü Çizilir.</del>
+    <ins>Yerine yazılan yeni kısım/Altı çizili yazılır.</ins>
+    <br />
+
+    <br />
+
+    Alt indis için kullanılır. a<sub>2</sub>
+
+    <br />
+
+    Üst indis için kullanılır X<sup>2</sup>
+    <br />
+    <img
+      src="../HTML Çalışmaları/Kod içinde kullanmak için resimler/3121094_ea65_3.webp"
+      alt="Satranç"
+      width="200"
+      height="200"
+    />
+
+    <br /><br />
+    <!-- Bir resmi sayfada kullanırken dikkat edilmesi gereken önemli bir durum da resminin bellekte kapladığı yerdir.
+     png uzantılı bir resmi jpeg olarak depolamak bu konuda yararlı olacaktır.
+     ../ = Bir üst dizine çık demektir.Eğer ulaşmak istediğimiz resim bir klasör içindeyse bu yapıyı kullanırız.
+    img etiketi kapatılmaz.img etiketi içinde illa dosya içinde olan bir resim olmak zorunda değildir.İnternetten de resim çekilebilir.
+    alt etiketine yazılan resim açıklaması tarayıcıda o resmin sonuç olarak çıkmasına yardımcı olur -->
+    <a
+      href="https://www.youtube.com/?app=desktop&hl=tr"
+      target="_blank"
+      title="Youtube'a git"
+      >Youtube</a
+    >
+
+    <!--a href ile link oluşturabiliriz.target blank kısmı ise mevcut sekmedeki linki yeni bir sekmede açmak için kullanılır.
+  a etiketleri arasına link olacak nesne yazılır.Bu bir metin ya da resim olabilir.
+  Eğer a href bağlantısı kullanılarak bir zip dosyasına yönlendirme yapılırsa tarayıcı zip dosyasını açamayacağı için direkt cihaza indirir.
+  a href  etiketi kısmında link sonrasına download eklenirse dosya bilgisayara indirilir.-->
+
+    <ul style="list-style-type: lower-latin">
+      <!--<ul> etiketi sıralı olmayan listeler için kullanılır.style etiketi içinden madde işaretleri değiştirilebilir.-->
+
+      <li>Madde 1</li>
+      <li>Madde 2</li>
+      <li>
+        Madde 3
+        <ul>
+          <li>3.1</li>
+          <li>3.2</li>
+          <li>3.3</li>
+        </ul>
+      </li>
+    </ul>
+
+    <ol type="1" start="7">
+      <!--<ol> etiketi sıralı listeler için kullanılır.Type etiketi içine hangi sıra ile gitmesi istenirse yazılabilir.
+        Varsayılan olarak sıralı liste 1 2 3 diye gider.start etiketi ile de listenin nereden başlayacağını değiştirebiliriz.-->
+
+      <li>Madde 1</li>
+      <li>Madde 2</li>
+      <li>Madde 3</li>
+    </ol>
+    <div>
+      <!--<div> etiketi gruplandırmaya yarar.
+  Bu etiket arasına alınan kodlar tarayıcı tarafından blok eleman olarak kabul edilir.--->
+
+      <dl>
+        <!--Description List-->
+        <dt>
+          <!--Description Type-->
+          MENÜ
+        </dt>
+        <dd>İSKENDER:150TL</dd>
+        <dd>TAVUK DÖNER:100TL</dd>
+      </dl>
+      <!--Burada mesela MENÜ kısmı tarayıcı tarafından bir grup olarak algılanır.
+    div etiketi içine id tanımlanabilir.Böylece birden fazla bölümlü bir site tasarlanabilir.-->
+    </div>
+    <span
+      style="
+        color: blue;
+        background-color: rgb(167, 160, 160);
+        font-size: larger;
+      "
+      >Bu etikette div etiketi gibi fakat arasında bulunan kısmın özelliklerini
+      değiştirmek için kullanılır.</span
+    >
+
+    <!--CTRL-SPACE ile tanımlanabilecek özellikler görüntülenebilir.CTRL+K+C ile de mevcut satır yorum satırı haline getirilebilir-->
+
+    <figure><!--Bu etiketler arasına resim eklenebilir--></figure>
+    <figcaption>
+      <!--Bu etiketler arasına resim açıklaması eklenir-->
+    </figcaption>
+
+    <!-- SEO:Search Engine Optimization(Arama Motoru Optimizasyonu)
+    arama motorunda sitenin diğerlerine göre daha ön planda olmasını sağlar -->
+
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Takımın Adı</th>
+          <th>Şampiyonluk Sayıları</th>
+          <th>Yıldız Sayıları</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            <span style="display: block; text-align: center">Galatasaray</span>
+          </td>
+          <td><span style="display: block; text-align: center">26</span></td>
+          <td><span style="display: block; text-align: center">5</span></td>
+        </tr>
+
+        <tr>
+          <td>
+            <span style="display: block; text-align: center">Fenerbahçe</span>
+          </td>
+          <td><span style="display: block; text-align: center">19</span></td>
+          <td><span style="display: block; text-align: center">3</span></td>
+        </tr>
+
+        <tr>
+          <td>
+            <span style="display: block; text-align: center">Beşiktaş</span>
+          </td>
+          <td><span style="display: block; text-align: center">16</span></td>
+          <td><span style="display: block; text-align: center">3</span></td>
+        </tr>
+
+        <tr>
+          <td>
+            <span style="display: block; text-align: center">Trabzonspor</span>
+          </td>
+          <td><span style="display: block; text-align: center">7</span></td>
+          <td><span style="display: block; text-align: center">1</span></td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">
+            <!--rowspan etiketi satırları birleştirmeye colspan etiketi ise sütunları birleştirmeye yarar.-->
+            <span style="display: block; text-align: center"
+              >Başakşehir <br />
+              Bursaspor</span
+            >
+          </td>
+          <td><span style="display: block; text-align: center">1</span></td>
+          <td><span style="display: block; text-align: center">-</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--border vs gibi etiketler yeni tarayıcılarda çalışma açısından sorun oluşturur.
+    Bu örneklerde çalışır fakat yeni tarayıcılar için farklı yöntemler kullanılır.-->
+
+    <!--cellspacing(Hücre aralığı) tablolar arası boşluk oluşturmak için kullanılır.-->
+    <form>
+      <label for="Günlük">Metin Bölmesi</label>
+      <textarea cols="10" rows="4"></textarea>
+
+      <div>
+        <label for="city">Şehirler</label>
+        <select id="city">
+          <option value="25">Erzurum</option>
+          <option value="34">İstanbul</option>
+        </select>
+      </div>
+    </form>
+    <br />
+    <label>Adınız:</label>
+    <input id="isim." type="text" placeholder="Adınızı Giriniz" />
+
+    <!-- iframe etiketi önizleme için kullanılır. -->
+    <br />
+    <iframe
+      style="float: left"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/kPxp0FYFcKw?si=zfpU831t-oUWAwWs"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <p style="text-align: center">Metnin yerini değiştirir.</p>
+
+    <!-- İnternal Css de head etiketi kısmında ne için hangi özellikleri uygulayacağımızı
+     tek seferde yazılır ve böylece istenen tüm bölümlere aynı özellikler kazandırılır.
+     Fakat aynı özellikleri başka bir sayfada da kullanmak istiyorsak tekrar yazmak yerine
+     istediğimiz özellikler adına tek bir dosya açıp onu istediğimiz sayfalara yönlendirmemiz 
+     işi daha kolaylaştırmış olur.Buna da external css denir. -->
+    
+     <!-------------------------- CSS ------------------------------------>
+    
+     <link rel="stylesheet" href="" />
+    <!-- Bu yapı sayesinde özellikleri html dosyası içinde tanımlamak
+      yerine özellik adına bir dosya oluşturup ondan özelliklere
+      ulaşmamız sağlanır.Href kısmı sonrasına dosyanın adı yazılır. -->
+
+    <!-- CSS öncelik sıralaması 
+       1-)İnline CSS
+       2-)İd Selector
+       3-)Class Selector
+       4-)Tag Selector
+       5-)Browser Defaults
+        -->
+
+       
+
+  </body>
+</html>
